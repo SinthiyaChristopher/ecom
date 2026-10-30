@@ -1,0 +1,33 @@
+.products-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.products-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #4338ca;
+  margin-bottom: 25px;
+}
+
+.search-section {
+  margin-bottom: 25px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  );
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.no-products {
+  text-align: center;
+  color: #ef4444;
+  font-size: 20px;
+  margin-top: 20px;
+}
